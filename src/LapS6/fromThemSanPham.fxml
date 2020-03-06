@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="LapS6.FromThemSp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#e10505" layoutX="146.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Sản Phẩm" textAlignment="CENTER" wrappingWidth="308.6708984375">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên Sản Phẩm" wrappingWidth="152.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtTenSP" layoutX="211.0" layoutY="109.0" prefHeight="18.0" prefWidth="294.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Text layoutX="36.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mô Tả" wrappingWidth="152.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtMoTa" layoutX="211.0" layoutY="171.0" prefHeight="18.0" prefWidth="294.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtGia" layoutX="211.0" layoutY="231.0" prefHeight="18.0" prefWidth="294.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Text layoutX="36.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giá Sản Phẩm" wrappingWidth="152.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số Lượng" wrappingWidth="152.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtSoLuong" layoutX="211.0" layoutY="290.0" prefHeight="18.0" prefWidth="294.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnThemSP" onAction="#themSP" layoutX="211.0" layoutY="357.0" mnemonicParsing="false" text="Thêm Sản Phẩm" />
+      <Button fx:id="btnLamMoi" layoutX="369.0" layoutY="357.0" mnemonicParsing="false" text="Làm Mới" />
+   </children>
+</Pane>
